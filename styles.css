@@ -1,0 +1,82 @@
+/* massage box code*/
+
+.contaner {
+    background-color: rgb(10, 10, 10);
+    margin: auto;
+    max-width: 600px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+
+/* send massage or resive massage   code*/
+
+.message {
+    background-color: rgb(214, 18, 165);
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    color: antiquewhite;
+    margin: 17px 12px;
+}
+
+
+/* left massage code*/
+
+.left {
+    float: left;
+    clear: both;
+}
+
+
+/* right massage code*/
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.center {
+    float: center;
+    margin: auto;
+    clear: both;
+    border-radius: 0%;
+    background-color: black;
+}
+
+
+/*  massage box code*/
+
+#send-contaner {
+    text-align: center;
+    margin: auto;
+    display: block;
+    max-width: 900vh;
+    height: 300px;
+    padding-top: 5px;
+}
+
+
+/* input massage code*/
+
+#messageImp {
+    width: 77vh;
+    height: 24px;
+    background-color: rgb(214, 18, 165);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: antiquewhite;
+}
+
+
+/* send botton code*/
+
+.btn {
+    cursor: pointer;
+    border-radius: 30px;
+    height: 34px;
+    width: 80px;
+    background-color: rgb(214, 18, 165);
+    color: antiquewhite;
+}
