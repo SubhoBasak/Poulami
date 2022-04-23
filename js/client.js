@@ -4,12 +4,16 @@ const form = document.getElementById("send-contaner");
 const messageImput = document.getElementById("messageImp");
 const messageContainer = document.querySelector(".contaner");
 
+var audio = new Audio("music.mp3");
 const append = (message, position) => {
   const messageElement = document.createElement("div");
   messageElement.innerText = message;
   messageElement.classList.add("message");
   messageElement.classList.add(position);
   messageContainer.append(messageElement);
+  if (position == "left") {
+    audio.play();
+  }
 };
 form.addEventListener("submit", (e) => {
   e.preventDefault();
